@@ -55,10 +55,9 @@ GYM Stay Hard/
 ├── img/
 │   ├── logo.png
 │   ├── hero.jpg
-│   ├── treino.jpg
-│   ├── evolucao.jpg
-│   ├── peso.jpg
-│   └── calendario.jpg
+│   ├── halter.jpg
+│   
+│
 │
 └── README.md
 ```
