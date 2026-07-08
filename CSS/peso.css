@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#0B0B0B;
+    color:white;
+
+}
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    border-bottom:1px solid #2a2a2a;
+
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+.logo img{
+
+    width:45px;
+
+}
+
+.logo span{
+
+    color:#7CFC00;
+
+}
+
+nav ul{
+
+    display:flex;
+    gap:25px;
+    list-style:none;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+
+    color:#7CFC00;
+
+}
+
+.titulo{
+
+    text-align:center;
+    padding:50px 20px;
+
+}
+
+.titulo p{
+
+    color:#9c9c9c;
+
+}
+
+.informacoes{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    padding:0 8% 50px;
+
+}
+
+.card{
+
+    background:#171717;
+    border:1px solid #2a2a2a;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+
+}
+
+.card h2{
+
+    color:#7CFC00;
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    font-size:28px;
+    font-weight:600;
+
+}
+
+.tabela{
+
+    padding:0 8% 60px;
+
+}
+
+.tabela h2{
+
+    margin-bottom:20px;
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#7CFC00;
+    color:black;
+    padding:15px;
+
+}
+
+td{
+
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #2a2a2a;
+
+}
+
+footer{
+
+    text-align:center;
+    padding:25px;
+    border-top:1px solid #2a2a2a;
+    color:#9c9c9c;
+
+}
+
+@media(max-width:900px){
+
+.informacoes{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+header{
+
+flex-direction:column;
+gap:15px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.informacoes{
+
+grid-template-columns:1fr;
+
+}
+
+}
